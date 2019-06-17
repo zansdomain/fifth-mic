@@ -8,7 +8,7 @@ export default {
        name: "mystic",
        type: "boolean"
      },
-             {
+              {
                  title: "Ability",
                  name: "ability",
                  type: "string",
@@ -21,9 +21,9 @@ export default {
                      {name: 'psychic', type: 'string', title: 'Psychic'},
                      {name: 'tech', type: 'string', title: 'Tech'}, 
                        ]
-                 },
+              },
               {
-              	title: "Ability Level",
+              	  title: "Ability Level",
                   name: "abilitylevel",
                   type: "number",
                },
@@ -64,6 +64,5 @@ export default {
                    name: "stylo",
                    type: "string",
                    },
-             }
-          ]
+             ]
          }
