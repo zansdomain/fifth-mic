@@ -26,6 +26,6 @@ export default {
       title: 'Magic',
       type: 'reference'
       to: [{type: 'magical'}]
-    },
+    }
     ]
 }
