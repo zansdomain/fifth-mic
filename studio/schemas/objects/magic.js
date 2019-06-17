@@ -63,7 +63,7 @@ export default {
                    title: "Stylo",
                    name: "stylo",
                    type: "string",
-                   }
+                   },
              }
           ]
          }
