@@ -58,12 +58,12 @@ export default {
                      {name: 'conscious', type: 'string', title: 'Conscious'},
                      {name: 'top40', type: 'string', title: 'Top 40'},
                         ]
-                 },
-                 {
+                   },
+                   {
                    title: "Stylo",
                    name: "stylo",
                    type: "string",
-                 },
-             },
+                   }
+             }
           ]
          }
