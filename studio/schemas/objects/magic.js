@@ -8,7 +8,6 @@ export default {
        name: "mystic",
        type: "boolean"
      },
-           {collapsible: true,
              {
                  title: "Ability",
                  name: "ability",
@@ -76,6 +75,5 @@ export default {
                    type: "reference",
                   },
              },
-           },
           ]
          }
