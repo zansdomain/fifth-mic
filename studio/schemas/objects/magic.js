@@ -6,7 +6,8 @@ export default {
      {
        title: "Mystic",
        name: "mystic",
-       type: "boolean",
+       type: "boolean"
+     },
            {collapsible: true,
              {
                  title: "Ability",
