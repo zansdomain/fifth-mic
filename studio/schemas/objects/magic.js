@@ -1,11 +1,11 @@
 export default {
   type: 'object',
-  name: 'magic',
-  title: 'Magic',
+  name: 'mystic',
+  title: 'Mystic',
   fields: [
      {
-       title: "Mystic",
-       name: "mystic",
+       title: "Power",
+       name: "power",
        type: "boolean"
      },
               {
