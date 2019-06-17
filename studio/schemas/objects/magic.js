@@ -7,7 +7,7 @@ export default {
        title: "Mystic",
        name: "mystic",
        type: "boolean",
-       {"if" : [ true, "yes", "no" ]},
+       {"if" : [ true, "yes", "no" ]}
        
            {collapsible: true,
              {
@@ -78,4 +78,5 @@ export default {
                   },
              },
            },
+          ]
          }
