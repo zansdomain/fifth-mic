@@ -16,9 +16,9 @@ export default {
       type: 'string'
     },
     {
-    name: 'physical'
-    title: 'Stats'
-    type: 'reference'	
+    name: 'physical',
+    title: 'Stats',
+    type: 'reference',	
     to: [{type: 'physical'}]
     },
     {
