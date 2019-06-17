@@ -64,16 +64,6 @@ export default {
                    name: "stylo",
                    type: "string",
                  },
-                 {
-                   title: "Enabler",
-                   name: "enabler",
-                   type: "reference",
-                  },
-                  {
-               	title: "Booster",
-                   name: "booster",
-                   type: "reference",
-                  },
              },
           ]
          }
