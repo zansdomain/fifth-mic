@@ -7,7 +7,7 @@ export default {
        title: "Mystic",
        name: "mystic",
        type: "boolean",
-       {"if" : [ true, "yes", "no" ],
+       {"if" : [ true, "yes", "no" ]},
        
            {collapsible: true,
              {
@@ -61,6 +61,7 @@ export default {
                      {name: 'top40', type: 'string', title: 'Top 40'},
                         ]
                  },
+                 {
                    title: "Stylo",
                    name: "stylo",
                    type: "string",
@@ -75,3 +76,6 @@ export default {
                    name: "booster",
                    type: "reference",
                   },
+             },
+           },
+         }
