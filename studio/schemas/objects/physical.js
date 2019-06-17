@@ -1,5 +1,5 @@
 // The schema for Character physical object type
-{
+export default {
   title: 'Physical',
   name: 'physical',
   type: 'object',
