@@ -25,7 +25,7 @@ export default {
       name: 'magic',
       title: 'Magic',
       type: 'reference',
-      to: [{type: 'magical'}]
+      to: [{type: 'mystic'}]
     }
     ]
 }
