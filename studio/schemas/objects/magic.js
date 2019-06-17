@@ -1,5 +1,3 @@
-// magic.js
-
 export default {
   type: 'object',
   name: 'magic',
