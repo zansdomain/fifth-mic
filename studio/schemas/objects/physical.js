@@ -17,8 +17,8 @@ export default {
     {
       title: 'Gender',
       name: 'gender',
-      type: 'array'
-      of: [{type: "string"}
+      type: 'array',
+      of: [{type: "string"}]
     },
    {
      title: 'Government tag',
