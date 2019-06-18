@@ -31,16 +31,13 @@ export default {
                  title: "Class",
                  name: "abilityclass",
                  type: "array",
-                 of: [{type: 'string'}],
-                      options: {
-                      list:
-                   fields: [
-                     {title: 'Psychic', value: 'psychic'},
-                     {title: 'Tech', value: 'tech'},
-                     {title: 'Soundwave', value: 'soundwave'},
-                     {title: 'Emotional', value: 'emotional'}
+                 of:  
+                 [
+                     {title: 'Psychic', type: 'psychic'},
+                     {title: 'Tech', type: 'tech'},
+                     {title: 'Soundwave', type: 'soundwave'},
+                     {title: 'Emotional', type: 'emotional'}
                  ]
-                }
               },
               {
               	  title: "Ability Level",
