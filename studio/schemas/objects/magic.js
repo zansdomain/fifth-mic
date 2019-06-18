@@ -17,10 +17,15 @@ export default {
                  title: "Class",
                  name: "abilityclass",
                  type: "array",
-                 fields: [
-                     {name: 'psychic', type: 'string', title: 'Psychic'},
-                     {name: 'tech', type: 'string', title: 'Tech'}, 
-                       ]
+                 of: [{type: 'string'}],
+                      options: {
+                      list:
+                   fields: [
+                     {title: 'Psychic', value: 'psychic'},
+                     {title: 'Tech', value: 'tech'},
+                     {title: 'Soundwave', value: 'soundwave'},
+                     {title: 'Emotional', value: 'emotional'}
+                 ]
               },
               {
               	  title: "Ability Level",
@@ -43,20 +48,23 @@ export default {
                    type: "boolean",
                   },
                  {
-                    title: "Genre",
+                   title: "Genre",
                    name: "genre",
                    type: "array",
-                   fields: [
-                     {name: 'roots', type: 'string', title: 'Roots'},
-                     {name: 'lyricist', type: 'string', title: 'Lyricist'},
-                     {name: 'club', type: 'string', title: 'Club'},
-                     {name: 'backpack', type: 'string', title: 'Backpack'},
-                     {name: 'gangsta', type: 'string', title: 'Gangsta'},
-                     {name: 'trap', type: 'string', title: 'Trap'},
-                     {name: 'spokenword', type: 'string', title: 'Spoken word'},
-                     {name: 'freestyle', type: 'string', title: 'Freestyle'},
-                     {name: 'conscious', type: 'string', title: 'Conscious'},
-                     {name: 'top40', type: 'string', title: 'Top 40'},
+                   of: [{type: 'string'}],
+                      options: {
+                      list:
+                      fields: [
+                     {title: 'Roots', value: 'roots'},
+                     {title: 'Lyricist', value: 'lyricist'},
+                     {title: 'Club', value: 'club'},
+                     {title: 'Backpack', value: 'backpack'},
+                     {title: 'Gangsta', value: 'gangsta'},
+                     {title: 'Trap', value: 'trap'},
+                     {title: 'Spoken word', value: 'spoken'},
+                     {title: 'Freestyle', value: 'freestyle'},
+                     {title: 'Conscious', value: 'conscious'},
+                     {title: 'Top 40', value: 'top40'},
                         ]
                    },
                    {
