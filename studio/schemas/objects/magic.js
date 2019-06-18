@@ -1,6 +1,6 @@
 export default {
   type: 'object',
-  name: 'mystic',
+  name: 'mysyical',
   title: 'Mystic',
   fields: [
      {
