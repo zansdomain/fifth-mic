@@ -14,6 +14,20 @@ export default {
                  type: "string",
               },
               {
+  type: 'array',
+  name: 'arraytest',
+  of: [
+    {
+      type: 'frrrrr',
+      title: 'Fridays'
+    },
+    {
+      type: 'grrrtt',
+      title: 'Another author'
+    }
+  ]
+},
+              {
                  title: "Class",
                  name: "abilityclass",
                  type: "array",
