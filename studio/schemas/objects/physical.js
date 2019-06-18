@@ -35,5 +35,10 @@ export default {
       name: 'height',
       type: 'number'
     },
+{
+      title: 'Length',
+      name: 'length',
+      type: 'number'
+    },
   ]
 }
