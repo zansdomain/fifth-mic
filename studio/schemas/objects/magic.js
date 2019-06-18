@@ -26,6 +26,7 @@ export default {
                      {title: 'Soundwave', value: 'soundwave'},
                      {title: 'Emotional', value: 'emotional'}
                  ]
+                }
               },
               {
               	  title: "Ability Level",
@@ -66,6 +67,7 @@ export default {
                      {title: 'Conscious', value: 'conscious'},
                      {title: 'Top 40', value: 'top40'},
                         ]
+                      }
                    },
                    {
                    title: "Stylo",
