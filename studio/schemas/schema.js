@@ -52,6 +52,5 @@ export default createSchema({
     personReference,
     magic,
     physical,
-    character,
   ])
 })
