@@ -19,18 +19,14 @@ export default {
 
     {
       name: 'posse',
-      type: 'string',
+      type: 'array',
       title: 'Crew',
+      of: [{type: 'string'}]
       options: {
-        list: [
-          {value: 'cypher', title: 'Cypher'},
-          {value: 'machina', title: 'La Machina'},
-          {value: 'cashrock', title: 'CashRock'},
-          {value: 'clikclak', title: 'Clik Clak'},
-          {value: 'nogang', title: 'Unaffiliated'}
-        ]
+        layout: 'tags'
       }
     },
+   
 
 
     {
