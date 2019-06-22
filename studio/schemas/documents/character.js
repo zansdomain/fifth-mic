@@ -15,6 +15,24 @@ export default {
       title: 'Name',
       type: 'string'
     },
+
+
+    {
+      name: 'posse',
+      type: 'string',
+      title: 'Crew',
+      options: {
+        list: [
+          {value: 'cypher', title: 'Cypher'},
+          {value: 'machina', title: 'La Machina'},
+          {value: 'cashrock', title: 'CashRock'},
+          {value: 'clikclak', title: 'Clik Clak'},
+          {value: 'nogang', title: 'Unaffiliated'}
+        ]
+      }
+    },
+
+
     {
     name: 'physical',
     title: 'Stats',
