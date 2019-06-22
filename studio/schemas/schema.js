@@ -38,8 +38,6 @@ export default createSchema({
     person,
     venue,
     session,
-    magic,
-    physical,
     character,
 
     // When added to this list, object types can be used as
