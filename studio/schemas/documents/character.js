@@ -15,20 +15,15 @@ export default {
       title: 'Name',
       type: 'string'
     },
-
-
     {
       name: 'posse',
       type: 'array',
       title: 'Crew',
-      of: [{type: 'string'}]
+      of: [{type: 'string'}],
       options: {
         layout: 'tags'
       }
     },
-   
-
-
     {
     name: 'physical',
     title: 'Stats',
