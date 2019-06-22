@@ -41,6 +41,16 @@ export default {
        title: 'Sound Clip',
        type: 'file',
      }
-         
-    ]
+         {
+      name: 'bio',
+      type: 'cbioPortableText',
+      title: 'Who am I?'
+    }
+  ],
+  preview: {
+    select: {
+      title: 'name',
+      subtitle: 'slug.current',
+      media: 'avatar', 'soundclip'
+    }
 }
