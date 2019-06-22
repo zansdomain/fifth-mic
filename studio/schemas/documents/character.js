@@ -35,6 +35,12 @@ export default {
       title: 'Magic',
       type: 'array',
       of: [{type: 'mystic'}]
-    }
+    },
+    {
+       name: 'soundclip',
+       title: 'Sound Clip',
+       type: 'file',
+     }
+         
     ]
 }
