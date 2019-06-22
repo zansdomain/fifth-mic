@@ -33,8 +33,8 @@ export default {
     {
       name: 'magic',
       title: 'Magic',
-      type: 'reference',
-      to: [{type: 'mystic'}]
+      type: 'array',
+      of: [{type: 'mystic'}]
     }
     ]
 }
