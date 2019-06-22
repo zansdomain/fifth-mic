@@ -1,7 +1,7 @@
 export default {
   name: 'cbioPortableText',
   type: 'array',
-  title: 'Who is ',
+  title: 'Who am I?',
   of: [
     {
       title: 'Block',
