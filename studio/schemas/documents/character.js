@@ -27,8 +27,8 @@ export default {
     {
     name: 'physical',
     title: 'Stats',
-    type: 'reference',	
-    to: [{type: 'physical'}]
+    type: 'array',	
+    of: [{type: 'physical'}]
     },
     {
       name: 'magic',
