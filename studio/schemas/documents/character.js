@@ -40,7 +40,7 @@ export default {
        name: 'soundclip',
        title: 'Sound Clip',
        type: 'file',
-     }
+     },
          {
       name: 'bio',
       type: 'cbioPortableText',
