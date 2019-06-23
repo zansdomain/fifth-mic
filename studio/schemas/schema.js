@@ -23,7 +23,7 @@ import eventReference from './objects/eventReference'
 import personReference from './objects/personReference'
 import physical from './objects/physical'
 import magic from './objects/magic'
-import magic from './objects/cbioPortableText'
+import cbioPortableText from './objects/cbioPortableText'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -53,5 +53,6 @@ export default createSchema({
     personReference,
     magic,
     physical,
+    cbioPortableText,
   ])
 })
