@@ -41,10 +41,5 @@ export default {
       type: 'cbioPortableText',
       title: 'Who am I?'
     }
-  ],
-  preview: {
-    select: {
-      title: 'name',
-      media: 'avatar',
-    }
+  ]
 }
