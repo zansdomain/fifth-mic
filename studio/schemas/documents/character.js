@@ -16,16 +16,6 @@ export default {
       type: 'string'
     },
     {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
-      description: 'Some frontends will require a slug to be set to be able to show the person',
-      options: {
-        source: 'name',
-        maxLength: 96
-      }
-    },
-    {
       name: 'posse',
       type: 'array',
       title: 'Crew',
@@ -46,11 +36,6 @@ export default {
       type: 'array',
       of: [{type: 'mystic'}]
     },
-    {
-       name: 'soundclip',
-       title: 'Sound Clip',
-       type: 'file',
-     },
          {
       name: 'bio',
       type: 'cbioPortableText',
@@ -60,7 +45,6 @@ export default {
   preview: {
     select: {
       title: 'name',
-      subtitle: 'slug.current',
-      media: 'avatar', 'soundclip'
+      media: 'avatar',
     }
 }
