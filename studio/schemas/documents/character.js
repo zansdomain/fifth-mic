@@ -35,7 +35,7 @@ export default {
       title: 'Magic',
       type: 'array',
       of: [{type: 'mystic'}]
-    }
+    },
          {
       name: 'bio',
       type: 'cbioPortableText',
