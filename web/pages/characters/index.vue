@@ -10,7 +10,7 @@
             :image="character.image"
             class="avatar"
           />
-          <h2 class="name">{{ character.name || 'Secret speaker' }}</h2>
+          <h2 class="name">{{ character.avatar || 'Secret speaker' }}</h2>
         </nuxt-link>
       </li>
     </ul>
