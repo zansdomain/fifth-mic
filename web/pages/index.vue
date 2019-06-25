@@ -37,7 +37,7 @@ import { dateFilter } from 'vue-date-fns'
 import sanityClient from '../sanityClient'
 import SanityImage from '~/components/SanityImage'
 import SessionList from '~/components/SessionList'
-import clist from ~/components/clist'
+import clist from '~/components/clist'
 
 const query = `
   {
