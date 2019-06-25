@@ -53,4 +53,10 @@ export default {
       title: 'Who am I?'
     }
   ]
-}
+  preview: {
+    select: {
+      title: 'name',
+      subtitle: 'slug.current',
+      media: 'avatar'
+    }
+  }
