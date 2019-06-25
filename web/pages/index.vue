@@ -26,6 +26,7 @@
       <SessionList :program="program" :info="info" />
     </div>
     <div>
+      <h2>Characters</h2>
       <clist :program="program" :info="info" />
     </div>
   </section>
