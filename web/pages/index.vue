@@ -4,19 +4,11 @@
       <h1 class="title">{{ info.name }}</h1>
       <p class="subtitle">{{ info.description }}</p>
       </header>
+  </section>
     <section>
-    <figure :v-if="info.image">
-      <SanityImage
-        :image="info.image"
-        :width="1800"
-        :height="500"
-        class="mainImage"
-      />
-      <figcaption>{{ info.image.caption }}</figcaption>
-    </figure>
-
-    <div class="container">
+    <div class="sessionListContainer">
       <h2>Characters</h2>
+      <SessionList :program="program" :info="info">
     </div>
   </section>
 </template>
