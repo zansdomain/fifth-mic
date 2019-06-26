@@ -1,14 +1,14 @@
 <template>
   <section class="container">
     <header class="header">
-      <h1 class="title">{{ info.name }}</h1>
-      <p class="subtitle">{{ info.description }}</p>
+      <h1 class="title">Hummer</h1>
+      <p class="subtitle">Me and you kid we're going to make dont cash</p>
       </header>
   </section>
     <section>
     <div class="sessionListContainer">
       <h2>Characters</h2>
-      <SessionList :program="program" :info="info">
+      <clist>
     </div>
   </section>
 </template>
