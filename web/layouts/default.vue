@@ -3,7 +3,6 @@
     <Navbar
       :title="Did It"
       />
-    <nuxt />
     <Footer />
   </div>
 </template>
