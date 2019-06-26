@@ -1,16 +1,16 @@
 <template>
   <ul v-if="characters" class="persons">
-    <li v-for="Reference in characters" :key="Reference.character._id" class="person">
-      <nuxt-link :to="{ path: `/characters/${Reference.character.slug.current}` }">
+    <li v-for="cRef in characters" :key="cRef.character._id" class="person">
+      <nuxt-link :to="{ path: `/characters/${cRef.character.slug.current}` }">
         <SanityImage
-          :image="Reference.character.image"
-          :alt="Reference.character.image.alt"
+          :image="cRef.character.avatar"
+          :alt="cRef.character.image.alt"
           :width="128"
           :height="128"
           fit="crop"
           class="personImage"
         />
-        {{ Reference.character.name }}
+        {{ cRef.character.name }}
       </nuxt-link>
     </li>
   </ul>
