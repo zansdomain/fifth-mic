@@ -3,14 +3,8 @@
     <header class="header">
       <h1 class="title">{{ info.name }}</h1>
       <p class="subtitle">{{ info.description }}</p>
-      <div class="dates">
-        {{ new Date(info.schedule.from) | dateFilter('DD MMMM ha') }}
-        &ndash;
-        {{ new Date(info.schedule.to) | dateFilter('ha') }}
-      </div>
-      <div class="venue">{{ info.venue.name }}, {{ info.venue.city }}</div>
-    </header>
-
+      </header>
+    <section>
     <figure :v-if="info.image">
       <SanityImage
         :image="info.image"
@@ -21,71 +15,17 @@
       <figcaption>{{ info.image.caption }}</figcaption>
     </figure>
 
-    <div class="sessionListContainer">
-      <h2 class="sessionListTitle">Schedule</h2>
-      <SessionList :program="program" :info="info" />
-    </div>
-    <div>
+    <div class="container">
       <h2>Characters</h2>
-      <clist :program="program" :info="info" />
     </div>
   </section>
 </template>
 
 <script>
-import { dateFilter } from 'vue-date-fns'
-
 import sanityClient from '../sanityClient'
 import SanityImage from '~/components/SanityImage'
-import SessionList from '~/components/SessionList'
 import clist from '~/components/clist'
 
-const query = `
-  {
-    "info": *[_id == "eventInformation"] {
-      ..., image { ..., asset->}
-    }[0]
-  }
-`
-
-export default {
-  components: {
-    SanityImage,
-    SessionList
-    clist
-  },
-  filters: {
-    dateFilter
-  },
-  data() {
-    return {
-      program: this.$store.getters.getProgram
-    }
-  },
-  async asyncData() {
-    return await sanityClient.fetch(query)
-  },
-  head() {
-    if (!this || !this.info) {
-      return
-    }
-    return {
-      title: this.info.name,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.info.description
-        },
-        {
-          hid: 'keywords',
-          name: 'keywords',
-          content: this.info.keywords.join(',')
-        }
-      ]
-    }
-  }
-}
 </script>
 
 <style scoped>
