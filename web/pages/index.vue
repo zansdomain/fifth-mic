@@ -1,16 +1,11 @@
 <template>
-  <section class="container">
-    <header class="header">
+      <div>
       <h1 class="title">Hummer</h1>
       <p class="subtitle">Me and you kid we're going to make dont cash</p>
-      </header>
-  </section>
-    <section>
-    <div class="sessionListContainer">
+      </div>
+    <div>
       <h2>Characters</h2>
-      <clist>
     </div>
-  </section>
 </template>
 
 <script>
@@ -35,44 +30,20 @@ import clist from '~/components/clist'
   text-align: center;
 }
 
-.title + p + .dates {
+.title {
   margin-bottom: 0;
   font-weight: 600;
 }
 
-.title + p + .dates + .venue {
-  font-size: var(--font-small-size);
-  line-height: var(--font-small-line-height);
-  margin-bottom: 5rem;
-}
-
-figure {
-  margin: 0 0 3em;
-}
-
-figcaption {
-  font-size: var(--font-small-size);
-  line-height: var(--font-small-line-height);
-  padding: 0.25rem 1.5rem;
-}
 
 .mainImage {
   width: 100%;
   vertical-align: top;
 }
-
-.sessionListTitle {
-  text-align: center;
-  font-weight: 600;
-  font-size: var(--font-title2-size);
-  line-height: var(--font-title2-line-height);
-  margin: 0 0 3rem;
-
   @media (--media-min-medium) {
     font-size: var(--font-title1-size);
     line-height: var(--font-title1-line-height);
   }
-}
 
 .sessionListContainer {
   max-width: var(--width-small);
