@@ -3,7 +3,7 @@
   "name": "fifth-mic-studio",
   "version": "1.0.0",
   "main": "package.json",
-  "author": "Sanity <hello@sanity.io>",
+  "author": "Zanto Peabody <zap@zapcreates.com>",
   "scripts": {
     "dev": "sanity start",
     "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",
