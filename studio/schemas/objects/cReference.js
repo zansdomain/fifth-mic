@@ -1,5 +1,5 @@
 export default {
-  name: 'cReference',
+  name: 'cRef',
   type: 'object',
   title: 'Character reference',
   fields: [
@@ -16,7 +16,7 @@ export default {
   preview: {
     select: {
       title: 'character.name',
-      media: 'character.image.asset'
+      media: 'character.avatar.asset'
     }
   }
 }
