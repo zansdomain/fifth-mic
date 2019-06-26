@@ -1,7 +1,7 @@
 export default {
   type: 'object',
-  name: 'mystic',
-  title: 'Mystic',
+  name: 'magic',
+  title: 'Magic',
   fields: [
      {
        title: "Power",
