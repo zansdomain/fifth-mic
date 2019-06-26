@@ -45,7 +45,7 @@ export default {
       name: 'magic',
       title: 'Magic',
       type: 'array',
-      of: [{type: 'mystic'}]
+      of: [{type: 'magic'}]
     },
          {
       name: 'bio',
