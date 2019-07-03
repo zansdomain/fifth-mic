@@ -4,7 +4,7 @@ export default {
   title: 'Character reference',
   fields: [
     {
-      type: 'reference',
+      type: 'cRef',
       name: 'character',
       to: [
         {
