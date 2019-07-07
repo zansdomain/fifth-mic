@@ -1,8 +1,8 @@
 <template>
   <section class="container">
     <h1 class="title">Characters</h1>
-    <ul class="speakers">
-      <li v-for="character in characters" :key="character._id" class="speaker">
+    <ul class="character">
+      <li v-for="character in characters" :key="character._id" class="character">
         <nuxt-link :to="{ path: `/characters/${character.slug.current}` }">
           <SanityImage
             width="256"
@@ -52,7 +52,7 @@ export default {
   margin-bottom: 4rem;
 }
  
-.speakers {
+.characters {
   display: grid;
   margin: 0 auto;
   padding: 0;
@@ -61,7 +61,7 @@ export default {
   grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
 }
  
-.speaker {
+.character {
   display: block;
   position: relative;
   margin-bottom: 4em;
@@ -78,7 +78,7 @@ export default {
   }
 }
  
-.speaker a {
+. character a {
   color: inherit;
   text-decoration: inherit;
 }
