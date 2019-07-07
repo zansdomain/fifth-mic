@@ -34,7 +34,7 @@ export default {
     },
     {
       name: 'description',
-      type: 'cbodyPortableText',
+      type: 'bodyPortableText',
       title: 'Description'
     }
   ],
