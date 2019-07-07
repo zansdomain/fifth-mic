@@ -4,7 +4,7 @@ import sanityClient from './sanityClient'
 const routesQuery = `
   {
     "sessions": *[_type == "session"],
-    "speakers": *[_type == "person" && defined(slug.current)]
+    "Characters": *[_type == "character" && defined(slug.current)]
   }
 `
 
@@ -37,8 +37,7 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/eventInformation'],
-
+  
   /*
    ** Nuxt.js modules
    */
@@ -47,9 +46,7 @@ export default {
   /*
    ** Set global info from sanity document
    */
-  eventInformation: () => {
-    return sanityClient.fetch('*[_id == "eventInformation"]').then(res => res)
-  },
+
 
   /*
    ** Generate dynamic routes from data from sanity.
@@ -60,7 +57,7 @@ export default {
       return sanityClient.fetch(routesQuery).then(res => {
         return [
           ...res.sessions.map(item => `/sessions/${item._id}`),
-          ...res.speakers.map(item => `/speakers/${item.slug.current}`)
+          ...res.characters.map(item => `/characters/${item.slug.current}`)
         ]
       })
     }
