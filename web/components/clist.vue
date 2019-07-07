@@ -8,7 +8,7 @@
           :width="128"
           :height="128"
           fit="crop"
-          class="personImage"
+          class="characterImage"
         />
         {{ cRef.character.name }}
       </nuxt-link>
@@ -33,28 +33,28 @@ export default {
 <style scoped>
 @import '../styles/custom-properties.css';
  
-.session .persons {
+.session.characters {
   margin: 1rem 0 0;
   padding: 0;
   font-size: var(--font-small-size);
   line-height: var(--font-small-line-height);
 }
  
-.session .persons .person {
+.session.characters.character {
   display: flex;
   margin: 0.5rem 0 0;
   padding: 0;
   align-items: center;
 }
  
-.session .persons .person a {
+.session.characters.character a {
   display: contents;
   color: inherit;
   text-decoration: inherit;
   line-height: 1.75;
 }
  
-.personImage {
+.characterImage {
   height: 1.75rem;
   margin-right: 0.5rem;
   border-radius: 50%;
