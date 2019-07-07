@@ -2,7 +2,6 @@ export default {
   name: 'session',
   type: 'document',
   title: 'Session',
-  icon,
   fields: [
     {
       name: 'title',
@@ -28,20 +27,6 @@ export default {
       ]
     },
     {
-      name: 'sessionType',
-      type: 'string',
-      title: 'Session type',
-      options: {
-        list: [
-          {value: 'keynote', title: 'Keynote'},
-          {value: 'talk', title: 'Talk'},
-          {value: 'break', title: 'Break'},
-          {value: 'firesideChat', title: 'Fireside Chat'},
-          {value: 'panel', title: 'Panel'}
-        ]
-      }
-    },
-    {
       name: 'summary',
       type: 'text',
       title: 'Short summary',
@@ -56,15 +41,14 @@ export default {
   preview: {
     select: {
       title: 'title',
-      sessionType: 'sessionType',
       person: 'character.name',
       media: 'image'
     },
-    prepare ({title, media, sessionType, character}) {
+    prepare ({title, media, character}) {
       return {
         title,
         media,
-        subtitle: `${sessionType} ${character ? `- ${character}` : ''}`
+        subtitle: `${character ? `- ${character}` : ''}`
       }
     }
   }
