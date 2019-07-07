@@ -4,7 +4,7 @@ import sanityClient from './sanityClient'
 const routesQuery = `
   {
     "sessions": *[_type == "session"],
-    "Characters": *[_type == "character" && defined(slug.current)]
+    "characters": *[_type == "character" && defined(slug.current)]
   }
 `
 
