@@ -49,7 +49,7 @@ export default {
     },
          {
       name: 'bio',
-      type: 'cbioPortableText',
+      type: 'bodyPortableText',
       title: 'Who am I?'
     }
   ],
