@@ -15,7 +15,7 @@ import physical from './objects/physical'
 import magic from './objects/magic'
 import cbioPortableText from './objects/cbioPortableText'
 import cRef from './objects/cRef'
-import session from '.objects/session'
+import session from './objects/session'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
