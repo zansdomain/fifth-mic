@@ -13,7 +13,6 @@ import mainImage from './objects/mainImage'
 import bodyPortableText from './objects/bodyPortableText'
 import physical from './objects/physical'
 import magic from './objects/magic'
-import cbioPortableText from './objects/cbioPortableText'
 import cRef from './objects/cRef'
 import session from './objects/session'
 
@@ -35,7 +34,6 @@ export default createSchema({
     bodyPortableText,
     magic,
     physical,
-    cbioPortableText,
     cRef,
     session
   ])
