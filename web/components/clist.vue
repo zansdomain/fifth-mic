@@ -1,6 +1,6 @@
 <template>
-  <ul v-if="characters" class="persons">
-    <li v-for="cRef in characters" :key="cRef.character._id" class="person">
+  <ul v-if="characters" class="character">
+    <li v-for="cRef in characters" :key="cRef.character._id" class="character">
       <nuxt-link :to="{ path: `/characters/${cRef.character.slug.current}` }">
         <SanityImage
           :image="cRef.character.avatar"
