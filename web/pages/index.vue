@@ -45,7 +45,7 @@ import clist from '~/components/clist'
     line-height: var(--font-title1-line-height);
   }
 
-.sessionListContainer {
+.cListContainer {
   max-width: var(--width-small);
   margin: 0 auto;
   padding: 0 1.5rem;
