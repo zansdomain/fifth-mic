@@ -36,7 +36,7 @@ export default createSchema({
     magic,
     physical,
     cbioPortableText,
-    cRef
+    cRef,
     session
   ])
 })
